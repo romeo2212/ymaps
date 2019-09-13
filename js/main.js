@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	console.log('Hello GIT :)');
 	ymaps.ready(initYandexMap);
 
 	// function initYandexMap(){ 
@@ -37,12 +38,12 @@ $(document).ready(function() {
 		var center = [49.423631699999994, 26.976389899999997];
 		var myMap = new ymaps.Map('myLocation', {
 			center: center,
-			zoom: 15
+			zoom: 14
 		});
 		var myPlacemark = new ymaps.Placemark(center, {}, {
 		    iconLayout: 'default#image',
 		    iconImageHref: 'images/icon_1.png',
-		    iconImageSize: [30, 30],
+		    iconImageSize: [25, 25],
 		});
 		myMap.geoObjects.add(myPlacemark);
 	}
