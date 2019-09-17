@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	console.log('Hello GIT :)');
+
 	ymaps.ready(initYandexMap);
 
 	// function initYandexMap(){ 
